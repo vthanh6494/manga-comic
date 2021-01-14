@@ -1,0 +1,39 @@
+.fullWrap {
+  text-align: center;
+  .title {
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    @media only screen and (max-width: 640px) {
+      font-size: 15px;
+    }
+  }
+  .redirectChapterBtn {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    .button {
+      cursor: pointer;
+      width: 100px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #c5293c;
+      color: #fff;
+      font-weight: bold;
+      font-size: 14px;
+      &:hover {
+        background-color: #ea344a;
+      }
+    }
+  }
+  @media only screen and (max-width: 850px) {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

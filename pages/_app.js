@@ -1,7 +1,13 @@
-import '../styles/globals.css'
+import { Provider } from "../store";
+import "../styles/globals.css";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+
+export default function MyApp(props) {
+  const { Component, pageProps } = props;
+  return (
+    <Provider>
+      <Component {...pageProps} />
+    </Provider>
+  );
 }
 
-export default MyApp

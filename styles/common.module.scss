@@ -1,0 +1,177 @@
+.commonBackgroundDark {
+  background: url("../public/images/dark-theme.png") no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  filter: brightness(0.5);
+}
+
+.commonContainer {
+  max-width: 1000px;
+  max-height: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  @media only screen and (max-width: 640px) {
+    padding: 0 10px;
+  }
+}
+
+.commonHeader {
+  background-image: linear-gradient(to right, #ea344a, #f45c44);
+  color: #fff;
+  font-weight: bold;
+  height: 65px;
+  position: fixed;
+  height: 65px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 20px;
+  z-index: 2;
+  @media only screen and (max-width: 640px) {
+    padding: 0 10px;
+  }
+  .logo {
+    height: 65px;
+    overflow: hidden;
+    cursor: pointer;
+
+    .logoMobile {
+      display: none;
+    }
+    @media only screen and (max-width: 700px) {
+      display: flex;
+      align-items: center;
+      .logoMobile {
+        display: block;
+      }
+      .logoDestop {
+        display: none;
+      }
+      img {
+        height: 40px;
+      }
+    }
+  }
+  .searchContainer {
+    display: flex;
+    align-items: center;
+    .search {
+      position: relative;
+      width: 100%;
+      input {
+        padding: 10px;
+        background: transparent;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        color: #fff;
+        width: 100%;
+      }
+      svg {
+        position: absolute;
+        margin: 6px 5px 0;
+        border-left: 1px solid #fff;
+        padding-left: 7px;
+        right: 0;
+        top: 0;
+      }
+    }
+  }
+}
+
+.commonContentFooter {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  .navigation {
+    max-width: 35%;
+    display: flex;
+    justify-content: space-between;
+    margin: 18px auto;
+    align-items: center;
+    font-size: 15px;
+    color: #636363;
+    @media only screen and (max-width: 850px) {
+      max-width: 50%;
+    }
+    @media only screen and (max-width: 640px) {
+      max-width: 65%;
+    }
+    @media only screen and (max-width: 640px) {
+      max-width: 100%;
+      padding: 0 25px;
+    }
+  }
+  .copyright {
+    color: #c3c3c3;
+    font-size: 12px;
+  }
+}
+
+.commonContentHeader {
+  display: grid;
+  grid-template-columns: 200px 1fr 125px;
+  max-width: 1000px;
+  margin: 0 auto;
+  @media only screen and (max-width: 700px) {
+    grid-template-columns: 50px 1fr 110px;
+  }
+  .navigation {
+    justify-content: flex-start;
+    line-height: 25px;
+    display: flex;
+    > div {
+      margin-right: 25px;
+    }
+  }
+  .setting {
+    padding: 10px;
+    padding-right: 0;
+    justify-content: flex-end;
+    display: flex;
+    grid-column: 3/4;
+    justify-content: flex-end;
+    line-height: 25px;
+    .changeTheme {
+      user-select: none;
+      cursor: pointer;
+      margin-right: 5px;
+      svg {
+        transform: rotate(180deg);
+      }
+    }
+    .readMode {
+      margin-right: 15px;
+    }
+    .account {
+      svg {
+        width: 30px;
+        height: 30px;
+      }
+    }
+    > div {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+.commonFooter {
+  border-top: 2px solid #ebebeb;
+  height: 120px;
+  @media only screen and (max-width: 640px) {
+    margin-top: 30px;
+  }
+}
+
+.devider {
+  background: url("../public/images/moon-star.png") no-repeat;
+  height: 70px;
+  width: 100%;
+  background-size: cover;
+  margin-top: 65px;
+}
