@@ -1,5 +1,5 @@
-import { ENABLE_SLIDE } from "../../pages/common/constant";
-import Cookies from "../../pages/helper/cookies"
+import { ENABLE_SLIDE } from "../../utils/constant";
+import Cookies from "../../utils/helper/cookies"
 
 export function enableSlide(state, action) {
   switch (action.type) {

@@ -1,5 +1,5 @@
-import { TYPE_CHANGE_THEME } from "../../pages/common/constant";
-import Cookies from "../../pages/helper/cookies"
+import { TYPE_CHANGE_THEME } from "../../utils/constant";
+import Cookies from "../../utils/helper/cookies"
 
 export function changeTheme(state, action) {
   switch (action.type) {

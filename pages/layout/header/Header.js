@@ -8,7 +8,7 @@ import { useRouter } from "next/router";
 import { useContext, useState } from "react";
 import { Context } from "../../../store";
 import style from "../../../styles/common.module.scss";
-import { ENABLE_SLIDE, TYPE_CHANGE_THEME } from "../../common/constant";
+import { ENABLE_SLIDE, TYPE_CHANGE_THEME } from "../../../utils/constant";
 
 function Header({ opt }) {
   const router = useRouter();

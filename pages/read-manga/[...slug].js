@@ -4,8 +4,8 @@ import style from "@/styles/components/FullPageRead.module.scss";
 import { useContext } from "react";
 import { Context } from "../../store";
 import MainLayout from "../layout/main-layout/MainLayout";
-import { SlideReaderUi } from "../helper/ui/SlideReaderUi";
-import { redirectChapter } from "../helper/funcs";
+import { SlideReaderUi } from "../../utils/helper/ui/SlideReaderUi";
+import { redirectChapter } from "../../utils/helper/funcs";
 
 const ReadManga = () => {
   const router = useRouter();

@@ -1,7 +1,7 @@
 import {
   COLOR_TEXT_BRIGHT_THEME,
   COLOR_TEXT_DARK_THEME,
-} from "@/pages/common/constant";
+} from "@/utils/constant";
 import { Context } from "@/store";
 import React, { useContext } from "react";
 export default function EyeIcon() {

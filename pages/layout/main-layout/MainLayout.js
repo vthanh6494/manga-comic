@@ -6,7 +6,7 @@ import { Context } from "@/store";
 import {
   COLOR_TEXT_BRIGHT_THEME,
   COLOR_TEXT_DARK_THEME,
-} from "@/pages/common/constant";
+} from "@/utils/constant";
 
 function MainLayout({ children, hasDevider = false }) {
   const { state } = useContext(Context);

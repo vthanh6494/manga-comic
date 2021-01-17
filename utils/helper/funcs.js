@@ -1,4 +1,4 @@
-import { FIRST_CHAPTER } from "../common/constant";
+import { FIRST_CHAPTER } from "../constant";
 
 export const redirectChapter = ({
   prev = false,

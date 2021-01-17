@@ -1,7 +1,7 @@
 import {useReducer, createContext } from "react";
 import { enableSlide } from "./reducers/enableSlide";
 import { changeTheme } from "./reducers/themeChange";
-import Cookies from '../pages/helper/cookies'
+import Cookies from '../utils/helper/cookies'
 
 
 // initial state

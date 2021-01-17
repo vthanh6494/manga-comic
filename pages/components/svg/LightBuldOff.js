@@ -1,4 +1,4 @@
-import { COLOR_TEXT_DARK_THEME } from "@/pages/common/constant";
+import { COLOR_TEXT_DARK_THEME } from "@/utils/constant";
 import React from "react";
 export default function LightBuldOff() {
     return (

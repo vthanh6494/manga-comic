@@ -1,10 +1,10 @@
 import { useRouter } from "next/router";
 import style from "../../../styles/components/manga.module.scss";
 import StarRatings from "react-star-ratings";
-import { reduceTitle } from "@/pages/helper/func";
+import { reduceTitle } from "@/utils/helper/func";
 import { useContext } from "react";
 import { Context } from "@/store";
-import { COLOR_TEXT_DARK_THEME } from "../constant";
+import { COLOR_TEXT_DARK_THEME } from "../../../utils/constant";
 import EyeIcon from "@/pages/components/svg/EyeIcon";
 
 const starRatedColor = "#f25445";

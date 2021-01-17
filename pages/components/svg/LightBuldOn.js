@@ -1,4 +1,4 @@
-import { COLOR_YELLOW_THEME } from "@/pages/common/constant";
+import { COLOR_YELLOW_THEME } from "@/utils/constant";
 import React from "react";
 export default function LightBuldOn() {
   return (

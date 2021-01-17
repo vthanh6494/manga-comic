@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import { Context } from "../../../store";
 import style from "../../../styles/components/SlideReaderUi.module.scss";
-import MainLayout from "../../layout/main-layout/MainLayout";
+import MainLayout from "../../../pages/layout/main-layout/MainLayout";
 import { useSlideHook } from "./hooks/slide";
 
 export const SlideReaderUi = ({
