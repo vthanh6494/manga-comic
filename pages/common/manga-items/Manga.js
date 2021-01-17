@@ -22,6 +22,7 @@ function Manga({ manga }) {
     gridTemplateColumns: "45px 1fr",
   };
   let styleTitleManga = {};
+  if (!manga) return
   if (manga.vol) {
     styleLatestInfo = {
       ...styleLatestInfo,

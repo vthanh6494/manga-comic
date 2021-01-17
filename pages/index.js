@@ -5,7 +5,6 @@ import Manga from "./common/manga-items/Manga";
 
 function ListManga() {
   const listData = Object.values(data);
-  console.log("data", listData);
   return (
     <MainLayout hasDevider={true}>
       <div className={styles.container}>
